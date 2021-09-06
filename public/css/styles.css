@@ -1,0 +1,119 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+main {
+    width: 100%;
+
+}
+
+section {
+    padding: 40px 40px 40px;
+
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+section.banner img{
+    width: 100%;
+}
+.txt-cuerpo{ 
+    font-size: 12px;
+}
+.txt-titular{
+    font-size: 24px;
+}
+.txt-precio{
+    font-size: 18px;
+}
+.txt-dd{
+    font-size: 16px;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+.burger-menu{
+    
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.search-box {
+  background: white;
+  width: 350px;
+  padding: 10px;
+  border: 5px;
+  margin: auto;
+}
+
+.alinear{
+    text-align: center;
+}
+
+a {
+    list-style-type: none ;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer{
+    text-align: center;
+    font-family: Roboto;
+}
+
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+    }
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+@media (min-width: 769px){
+
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
