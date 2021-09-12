@@ -1,14 +1,23 @@
 {
-  "name": "ProyectoEnPlayground",
+  "name": "MLiebre",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon app.js" ,
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzequielGzm/MercadoLiebre.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EzequielGzm/MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/EzequielGzm/MercadoLiebre#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.12"
