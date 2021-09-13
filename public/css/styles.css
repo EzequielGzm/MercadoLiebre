@@ -1,5 +1,6 @@
 @import url("/css/header.css");
 @import url("/css/footer.css");
+@import url("/css/signreg.css");
 
 *{
     margin: 0px;
@@ -184,3 +185,5 @@ main section article i:hover {
 }
 
 
+
+    
